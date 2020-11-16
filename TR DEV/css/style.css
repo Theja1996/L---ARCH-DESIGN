@@ -93,13 +93,14 @@ address {
 ol,
 ul,
 dl {
-  margin-top: 0;
+  margin-top: 3rem;
   margin-bottom: 1rem; }
 
 ol ol,
 ul ul,
 ol ul,
 ul ol {
+  margin-top: 0rem;
   margin-bottom: 0; }
 
 dt {
@@ -6641,17 +6642,19 @@ button.bg-dark:focus {
 .m-5 {
   margin: 3rem !important; }
 
-.mt-5,
-.my-5 {
+.mt-5 {
   margin-top: 3rem !important; }
+.my-5 {
+  margin-top: -3rem !important; }
 
 .mr-5,
 .mx-5 {
   margin-right: 3rem !important; }
 
-.mb-5,
-.my-5 {
+.mb-5{
   margin-bottom: 3rem !important; }
+.my-5 {
+  margin-bottom: -3rem !important; }
 
 .ml-5,
 .mx-5 {
